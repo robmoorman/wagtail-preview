@@ -1,9 +1,11 @@
 # Wagtail-preview
 
-Alternative preview methods for Wagtail pages.
+Alternative preview modes for Wagtail pages.
 
 * JSON
 * Window
+
+![Preview modes](docs/screenshot.png)
 
 ## Status
 
@@ -20,7 +22,7 @@ pip install pip install git+https://github.com/moorinteractive/wagtail-preview.g
 
 Add `wagtail-preview` to your `INSTALLED_APPS` settings and use the `PreviewMixin` mixin
 
-```
+```python
 # File settings.py
 
 INSTALLED_APPS = [

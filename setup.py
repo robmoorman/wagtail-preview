@@ -9,7 +9,7 @@ install_requires = [
 setup(
     name='wagtail-preview',
     version='0.1.0',
-    description='Alternative preview methods for Wagtail pages.',
+    description='Alternative preview modes for Wagtail pages.',
     author='Rob Moorman',
     author_email='rob@moori.nl',
     install_requires=install_requires,
