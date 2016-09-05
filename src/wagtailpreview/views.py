@@ -18,9 +18,4 @@ class PreviewMixin(object):
             data = serializers.serialize(
                 'json', Page.objects.filter(pk=self.pk))
             return JsonResponse(data, safe=False)
-
-        if mode_name == 'window':
-            request.is_preview = True
-            return self.serve(request)
-
         return super(PreviewMixin, self).serve_preview(request, mode_name)

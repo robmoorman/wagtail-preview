@@ -5,9 +5,13 @@ Alternative preview modes for Wagtail pages (for opinionated common usage).
 * JSON
 * Window
 
+![Preview modes](docs/screenshot.png)
+
 Goal is to provide a preview window which reloads on new drafts, kinda how `live reload` works (except than for content editors).
 
-![Preview modes](docs/screenshot.png)
+Resourcses
+
+* https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
 
 ## Status
 
@@ -23,6 +27,7 @@ pip install pip install git+https://github.com/moorinteractive/wagtail-preview.g
 ```
 
 Add `wagtail-preview` to your `INSTALLED_APPS` settings and use the `PreviewMixin` mixin.
+
 Make sure `wagtail.wagtailadmin` is set after `wagtail-preview`.
 
 ```python
