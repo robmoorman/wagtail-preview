@@ -1,9 +1,11 @@
 # Wagtail-preview
 
-Alternative preview modes for Wagtail pages.
+Alternative preview modes for Wagtail pages (for opinionated common usage).
 
 * JSON
 * Window
+
+Goal is to provide a preview window which reloads on new drafts, kinda how `live reload` works (except than for content editors).
 
 ![Preview modes](docs/screenshot.png)
 
